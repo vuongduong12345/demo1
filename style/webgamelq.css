@@ -1,0 +1,188 @@
+body {
+    font-family: arial, helvetica, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 16px;
+    color: #fff;
+    line-height: 1.6em;
+    background: #000 url(../image/img10.jpg) repeat;
+}
+.navbar-collapse li a
+{
+	float: left !important;
+}
+.colora{
+	margin-left: 200px;
+}
+.nav-item{
+	margin-left: 20px;
+}
+.navbar-nav li a{
+	color: white !important;
+}
+.colora li a{
+	color: black !important;
+	font-size: 1.25em;
+}
+.colora li a:hover{
+	color:#ea931a !important;
+}
+.bg-light{
+	background-color: white !important;
+}
+.colora1 li a:hover{
+	background-color: #ea931a ;
+	padding: 0.5rem 1rem;
+}
+.navbar{
+	padding: 0.05rem 0.4rem;
+}
+@media (max-width: 992px){
+	.bg-light{
+		background-color: black !important;
+	}
+	.colora li a{
+		color: white !important;
+		font-size: 1em;
+	}
+}
+@media (max-width: 768px){	
+	.bg-light{
+		background-color: black !important;
+	}
+	.colora li a{
+		color: white !important;
+		font-size: 1em;
+	}
+}
+@media (max-width: 576px){
+	.bg-light{
+		background-color: black !important;
+	}
+	.colora li a{
+		color: white !important;
+		font-size: 1em;
+	}
+	.info p{
+		font-size: 0.5em;
+	}
+}
+.navbar-toggler{
+	color: white;
+	background-color: white;
+}
+.sticky-top{
+	margin-top: 45px;
+}
+.bg-dark{
+	background-color: black !important;
+}
+.nav-link{
+	float: left;
+}
+.colora2{
+	margin-left: 150px !important;
+}
+.fa-facebook {
+	color: #3b5998;
+}
+.fa-twitter {
+	color: #00aced;	
+}
+.fa-google-plus-g {
+	color: #dd4b39;
+}
+.fa-instagram {
+	color: #517fa4;
+}
+.fa-youtube {
+	color: #bb0000;
+}
+.social a {
+	font-size: 1.5em !important;/*1em = 16px*/
+	/*padding: 1rem;1rem = 1 "font-size" */
+	margin-left: 30px;
+}
+.navbar-right{
+	margin-left: 350px;
+}
+.fa-search{
+	color: #ea931a;
+}
+.btn-default{
+	background-color: black;
+	border-color: white;
+}
+.form-control{
+	background-color: black;
+}
+.top{
+	background-color: #f1f1f1;
+}
+.col-7{
+	padding: 0 0;
+}
+/*.info span{
+	background-color: #ea931a;
+	padding: 5px 5px;
+}
+.info{
+	position: absolute;
+    left: 0;
+    z-index: 1;
+    text-transform: uppercase;
+    background-image: url(https://picture.dzogame.vn/img/banner4912499807598470236.jpg) ;
+    background-repeat: repeat-y;
+}*/
+.intro-large-image {
+    position: relative;
+    background-color: rgba(224, 70, 11, 0.9);
+    width: 130px;
+	padding: 5px 5px;
+	color: white !important;
+}
+.category-game span {
+    display: block;
+    padding: 10px 10px 5px;
+    color: #fff;
+}
+.intro-large-image span{
+	color: white;
+}
+.intro-large-image a{
+	color: white;
+	text-decoration: none;
+}
+/*.large-image-banne img:hover{
+	opacity: 0.5;
+  filter: alpha(opacity=50);
+}*/
+.info{
+	background-color: black;
+	padding: 10px 10px;
+	width: 100%
+}
+.info p{
+	font-size: 1.25em;
+}
+.info a{
+	color: white;
+	text-decoration: none;
+}
+.info a:hover{
+	color: #ea931a;
+}
+.carousel-caption {
+    position: absolute;
+    bottom: 0px;
+    z-index: 10;
+    text-align: center;
+    right: 0;
+    left: 0;
+    text-align: left;
+    padding-bottom: 0;
+}
+.img-fluid{
+	width: 100%;
+	height: auto;
+}

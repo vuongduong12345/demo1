@@ -1,0 +1,133 @@
+*{
+  	box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.navbar-default{
+	background-color: black;
+	border-color: #f1f1f1;
+ 	 color: black;
+}
+.navbar-default .navbar-nav>li>a {
+    color: white;
+}
+.navbar-default .navbar-nav>li>a:hover {
+    background-color: black;
+    color:blue;
+}
+.navbar-default .navbar-nav>li{
+	color: white;
+	font-size: 0.75em;
+}
+.date{
+	padding-top: 18px;
+}
+.navbar-default1{
+	background-color: white;
+	border-color: #f1f1f1;
+ 	color: black;
+ 	margin-top: 51px;
+}
+.navbar-nav>li>a {
+    color: black;
+    font-weight: bold;
+    font-size: 1.2em;
+
+}
+.navbar-nav>li>a:hover{
+	color: blue;
+	background-color: white;
+	border-bottom: 10px;
+	border-bottom-color:blue;
+}
+.navbar-nav>li>a.active{
+	color: blue;
+	background-color: white;
+}
+.search{
+	margin-top: 30px;
+}
+.dropdown-menu>li>a{
+	color: black;
+	background-color: #f9f9f9;
+}
+.dropdown-menu>li>a:hover{
+	color: blue;
+	background-color: white;
+}
+.trendingnow{
+	padding: 0 42px;
+    height: 25px;
+    position: relative;
+}
+.gach {
+	margin-left: 50px;
+    background-color: black;
+    padding: 1px 10px;
+    line-height: 2.5em;
+    border-radius: 0px 0px 0px 0px;
+    color:white;
+    width: 120px;
+    height: 32px;
+}
+.cont{
+	margin-top: 200px;
+}
+.trending{
+	font-size:0.85em;
+	color: white;
+}
+.text-trend{
+	margin-top: 5px;
+}
+a.slide-text{
+	color: black;
+  	font-size: 1em;
+  	text-decoration: none;
+}
+.slide-text a:hover{
+	text-decoration: none;
+	color:blue;
+}
+img:hover {
+  opacity: 0.5;
+  filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+a{
+	text-decoration: none;
+}
+ .text-top {
+	color:white;
+	text-decoration: none;
+	background-color: black;
+	font-size:0.75em;
+	margin-left: 0px;
+    padding: 5px 10px;
+    line-height: 2.5em;
+    border-radius: 0px 0px 0px 0px;
+    width: 120px;
+    height: 32px;
+}
+p.tin{
+	font-size: 1.25em;
+}
+.carousel-caption{
+	text-align:left;
+}
+.col-md-6{
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 2px;
+	font-size: 0.5em;
+}
+.col-xs-6{
+	font-size: 0.85em;
+	padding-left: 2px;
+	padding-right: 1px;
+	padding-top: 2px;
+}
+.col1-md-6{
+	padding-left: 0px;
+	padding-right: 0px;
+}

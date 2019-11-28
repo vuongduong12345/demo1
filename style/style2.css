@@ -1,0 +1,312 @@
+*{
+  	box-sizing: border-box;
+}
+body
+  	{
+		font-family: arial;
+		margin-left:100px;
+		margin-right: 100px;
+		margin-top: 0px;
+		margin-bottom: 0px;
+		border: 2px solid #f1f1f1;
+		background-color:#f1f1f1;
+	}
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.topnav
+{
+	overflow: hidden;
+	background-color:#a63138;
+	width: 100%;
+	height: 39px;
+}
+.topnav a
+{
+	float:left;
+	display: block;
+	padding: 14px 16px;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+}
+.topnav a:hover
+{
+	background-color: #981428;
+	color:white;
+}
+/*phần bao ngoài*/
+.content-panel {
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    background-color: #FFF;
+    box-shadow: 1px 2px 5px #CCC;
+    padding: 10px 0px;
+}
+@media (min-width: 1200px)
+.container {
+    width: 1170px;
+}
+.left,.right
+{
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.left {
+    width: 66.66666667%;
+    float: left;
+}
+.right
+{
+	width: 33.3333333%;
+    float: left;
+}
+.border {
+    border: 1px solid #ddd;
+    margin-bottom: 15px;
+}
+div.gallery {
+  border: 1px solid #f1f1f1;
+  
+}
+
+div.gallery:hover {
+  border: 1px solid #f1f1f1;
+  
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding:15px;
+  text-align: left;
+  background-color:#f1f1f1;
+}
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 33.334%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+.xoagachchan
+{
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+	font-size: 0.8em;
+}
+.xoagachchan1
+{
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+	font-size: 1.0em;
+}
+
+/*@media (min-width: 992px)
+.col-md-8 {
+    width: 66.66666667%;
+}*/
+.clearfix:before {
+  content: "";
+  display: table;
+  clear: both;
+}
+.tintuc {
+    font-family: Arial;
+    background-color: #af213c;
+    color: #fff;
+    font-weight: bold;
+    padding: 5px 10px;
+    line-height: 2.5em;
+    border-radius: 3px 3px 0px 0px;
+    text-transform: uppercase;
+    /* letter-spacing: 0.1em; */
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.row {
+    margin-right: -5px!important;
+    margin-left: -5px!important;
+}
+/*các phần xem thêm*/
+.xemthem {
+    text-align: right;
+    padding: 3px;
+    display: inline-block;
+    border-radius: 5px;
+    margin: 3px;
+    width: 100%;
+    font-size: 0.8em;
+}
+.xemthem a {
+    /* background-color: #2560C7; */
+    color: #a63138;
+    padding: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.xemthem a:hover
+{
+	color: black;
+}
+.xemchitiet
+{
+	margin-left: 25%;
+	font-size: 0.8em;
+}
+.xemchitiet a
+{
+	color: #a63138;
+    padding: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.xemchitiet a:hover
+{
+	color: blue;
+}
+.xem
+{
+	font-size: 1.0em!important;
+}
+.xem a
+{
+	color: black;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 5px;
+}
+.xem a:hover
+{
+	color: blue;
+}
+.img1 {
+    float: left;
+    display: block;
+}
+.column
+{
+    width: 24%;
+    float: left;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+.row1:after
+{
+  content:"";
+  display: table;
+  clear: both;
+}
+p.size
+{
+	font-size: 0.8em;
+}
+#email
+{
+	margin-top: 15px;
+	width: 250px;
+	height: 30px;
+	font-size: 0.9em;
+}
+#submite
+{
+	background-color: #af213c;
+	border: 1px solid #f1f1f1;
+	text-align: center;
+	width: 80px;
+	height: 30px;
+	font-weight: bold;
+	color: #ffffff;
+	font-size: 0.9em;
+}
+.nav-tabs {
+    border-bottom: 1px solid #ddd;
+}
+.nav {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+li {
+    display: inline-block;
+    margin-bottom: 20px;
+}
+li a
+{
+	text-decoration: none;
+	color: black;
+	background-color: #ffffff;
+	font-size: 0.9em;
+	height: 39px;
+	text-align: center;
+	padding: 10px;
+	font-weight: bold;
+}
+li a:hover
+{
+	background-color: #af213c;
+	color: #ffffff;
+}
+.tab {
+    padding: 10px;
+}
+.xoagachchan2
+{
+	text-decoration: none;
+	color: black;
+	font-size: 0.8em;
+}
+.clear {
+    clear: both;
+}
+.footer {
+  	background-color: #a63138;
+ 	padding: 20px;
+ 	margin-top: 30px;
+}
+.size1
+{
+	font-weight: bold;
+	font-size: 0.9em;
+	color: #ffffff;
+}
+.size2
+{
+	font-size: 0.8em;
+	color: #ffffff;
+	margin-top: 5px;
+}
+.tpt a
+{
+	color: lightblue;
+    text-decoration: none;
+}
+.tpt a:hover
+{
+	color: blue;
+}
